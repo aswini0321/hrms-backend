@@ -13,6 +13,7 @@ const CategoryC = require('./models/categoryC');  // Importing CategoryC model
 // Middleware
 
 const allowedOrigins = [
+  'https://asrgsws.com',
   'http://localhost:3000',
   'https://hrms-frontend-six-beryl.vercel.app'
 ];
