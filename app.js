@@ -14,7 +14,7 @@ const CategoryC = require('./models/categoryC');  // Importing CategoryC model
 
 const allowedOrigins = [
   'http://localhost:3000',
-  'https://hrms-frontend-six-beryl.vercel.app/'
+  'https://hrms-frontend-six-beryl.vercel.app'
 ];
 
 app.use(cors({
