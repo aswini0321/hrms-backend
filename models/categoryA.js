@@ -47,6 +47,7 @@ const CategoryASchema = new mongoose.Schema({
   employeeName: String,
   employeeId: String, // <-- added
   designation: String,
+  probation:String,
   psVroGrade: String,
   dob: Date,
   doj: Date,
@@ -61,7 +62,8 @@ const CategoryASchema = new mongoose.Schema({
   salaryDrawingPresent: String,
   salaryDrawingOffice: String,
   employmentType: String,
-  deputationLocation: String
+  deputationLocation: String,
+  remarks:String
 });
 
 const CategoryA = mongoose.model('CategoryA', CategoryASchema);
